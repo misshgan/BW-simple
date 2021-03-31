@@ -13,7 +13,8 @@
     width: 300px;
     display: grid;
 
-    margin-top: 50px;   
+    margin-top: 50px;
+    margin-bottom: 30px;   
 }
 
 .news_title {
@@ -35,7 +36,7 @@
 
 .news_card_title {
     margin-top: 20px;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
 
     font-size: 25px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -60,7 +61,10 @@
 }
 
 .blog {
+    display: flex;
+    flex-direction: column;
     margin-top: 60px;
+    margin-bottom: 40px;
     padding-left: 50px;
 
     border-left: 2px solid black;
@@ -88,12 +92,12 @@
     margin-bottom: 50px;
     padding: 20px 0;
 
-
     border-top:  2px solid black;
 }
 
 .blog_card img {
     width: 75px;
+    height: auto;
     grid-area: photo;
 }
 
