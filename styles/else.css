@@ -1,0 +1,55 @@
+.section {
+    width: 1200px;
+    margin: 100px auto;
+}
+
+.section h1 {
+    color: white;
+    background-color: #a52a2a;
+    text-align: center;
+
+    padding: 5px;
+}
+
+.section p {
+    font-size: 20px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.blue {
+    color: blue;
+}
+
+.section img {
+    width: 1200px;
+    height: auto;
+}
+
+.images {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.images img {
+    display: inline-block;
+    width: 100px;
+    height: auto;
+
+    border: 5px dashed black;
+}
+
+.section h3 {
+    color: white;
+    background-color: black;
+    text-align: center;
+
+    margin-top: 50px;
+    padding: 5px;
+}

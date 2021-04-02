@@ -62,8 +62,9 @@
 
 .header_nav {
     display: grid;
-    grid-template-columns: 80px 175px 175px 120px 80px;
-    justify-content: space-around;
+    grid-template-columns: 80px 175px 175px 120px 80px 90px;
+    justify-content: center;
+    column-gap: 30px;
 
     width: 750px;
     height: 60px;
