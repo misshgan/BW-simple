@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="../styles/review.css">
+    <link rel="stylesheet" href="../styles/blog.css">
     <script src="../script/button.js"></script>
     <title>Отзывы бурячка</title>
 </head>
@@ -33,10 +34,66 @@
     <main>
         <section class="review">
             <h1>Here you can leave a review about our work</h1>
-            
+            <form action="#" class="form_1">
+                <label for="name">Your name:</label>
+                <input id="name" type="text" placeholder="name, please:">
+                <label for="phone">Your phone number:</label>
+                <input id="phone" type="tel" placeholder="number,please:">
+                <label for="email">Your email:</label>
+                <input id="email" type="email" placeholder="email, please:">
+                <label for="#">Have you already used our services?</label>
+                <div class="radio">
+                    <label for="num1">
+                        <input type="radio" name="numberOfUses" id="num1" value="frirst"> No, it's my first time
+                    </label>
+                    <label for="num2">
+                        <input type="radio" name="numberOfUses" id="num2" value="no-first"> Yes, I have
+                    </label>
+                </div>
+                <label for="ser">What kind of service did you use?</label>
+                <select name="services" id="ser">
+                    <option value="fr-end">Front-end</option>
+                    <option value="bk-end">Back-end</option>
+                    <option value="sm-el">Something else</option>
+                </select>
+                <label for="text">Tell us a little more about your impression of our work</label>
+                <textarea name="about services" id="text" cols="30" rows="10" placeholder="put your opinion here, please:"></textarea>
+                <label for="#">How did you hear about us?</label>
+                <div class="radio">
+                    <label for="inst">
+                        <input type="radio" name="from-where" id="inst" value="instagram"> From instagram
+                    </label>
+                    <label for="google">
+                        <input type="radio" name="from-where" id="google" value="google"> From google ads
+                    </label>
+                    <label for="fb">
+                        <input type="radio" name="from-where" id="fb" value="facebook"> From FaceBook
+                    </label>
+                    <label for="fr">
+                    <input type="radio" name="from-where" id="fr" value="friends"> From my friends
+                    </label>
+                </div>
+                <label for="rec">Will you recommend us to your friends?</label>
+                <div class="radio">
+                    <label for="rec1">
+                        <input type="radio" name="recommend" id="rec1" value="yes"> Yes
+                    </label>
+                    <label for="rec2">
+                        <input type="radio" name="recommend" id="rec2" value="no"> No
+                    </label>
+                </div>
+                <button type="submit" class="sub_button">Submit</button>
+            </div>
         </section>
-        
     </main>
-
+    <footer>
+        <section class="page_footer">
+            <div class="footer_logos">
+                <div class="logo_img1"><img src="../images/logo1.png" alt="logo1" class="logo_img1"></div>
+                <div class="copy"><h3 class="copyrights">&copy;All rights reserved.</h3></div>
+                <div class="logo_img2"><img src="../images/logo2.png" alt="logo2" class="logo_img2"></div>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>
