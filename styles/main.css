@@ -1,5 +1,3 @@
-
-
 /* goTop button */ 
 
 .goTop_btn {
@@ -31,7 +29,6 @@
 
 .page_header{
     width: 1200px;
-    height: 50px;
     margin: 0 auto;
     margin-top: 30px;
 }
@@ -58,7 +55,6 @@
     height: 60px;
     
     margin-top: 30px;
-    margin-bottom: 90px;
 
     border-top: 2px solid black;
     border-bottom: 2px solid black;
@@ -103,7 +99,7 @@
 .top {
     width: 1200px;
     margin: 0 auto;
-    margin-top: 200px;
+    margin-top: 80px;
 }
 
 .top_info {
